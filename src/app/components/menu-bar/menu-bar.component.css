@@ -1,3 +1,15 @@
 p {
     color: white;
 }
+
+.container_menu-bar > ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.container_menu-bar > ul > li {
+    margin-right: 20px;
+    margin-left: 10px;
+    list-style: none;
+}
+
