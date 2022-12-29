@@ -5,10 +5,10 @@
         >
     </div>
     <div class="big-card_headline">
-        <h1><a href="https://angular.io/about?group=Angular">{{ cardHeadline }}</a></h1>
+        <h1><a [routerLink]="['content', id]">{{ cardHeadline }}</a></h1>
     </div>
     <div class="big-card_description">
-        <p><a href="https://angular.io/about?group=Angular">
+        <p><a [routerLink]="['content', id]">
             {{ cardDescription }}
            </a>
         </p>

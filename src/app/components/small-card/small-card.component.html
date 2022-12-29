@@ -6,7 +6,7 @@
          >
        </div>
        <div class="small-card_headline">
-         <h1><a href="https://angular.io/about?group=Angular">{{ cardHeadline }}</a></h1>
+         <h1><a [routerLink]="['content', id]">{{ cardHeadline }}</a></h1>
        </div>
     </div>
     <div class="small-card-separator">
