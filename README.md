@@ -1,6 +1,6 @@
 # Angular Blog (Bajan Blog)
 
-Projeto desenvolvido através do [Angular CLI] versão 14.1.2
+Projeto desenvolvido através do **Angular CLI** versão 14.1.2
 
 ## Descrição
 
