@@ -1,7 +1,6 @@
     .container_big-card {
-        //border: 1px solid white;
-        width: 368px;
-        height: 500px;
+        width: 37vw;
+        height: 50vh;
         display: flex;
         justify-content: flex-start;
         flex-direction: column;
@@ -20,6 +19,7 @@
     .big-card_description > p > a {
         font-size: 13px;
         color: grey;
+        max-width: 37vw;
     }
 
     .big-card_img img {

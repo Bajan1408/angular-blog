@@ -1,11 +1,17 @@
 .container_content {
-    border: 1px solid white;
     width: 100%;
     height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 20px;
+}
+
+.content_headline{
+    max-width: 500px;
+    align-self: center;
+    width: 400px;
+    text-align: center;
 }
 
 .content_cover > img {
@@ -18,8 +24,17 @@
 
 .content_description{
    margin-top: 15px;
+   max-width: 600px;
+   display: flex;
+   flex-direction: column;
 }
 
 .content_description > p {
     color: rgb(190, 189, 189);
+    text-align: center;
+    margin-top: 20px;
+}
+
+.content_description > a {
+    align-self: center;
 }
